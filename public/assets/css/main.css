@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    flex-shrink: 0;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.footer {
+    flex-shrink: 0;
+}
+
+.calc-link{
+    text-decoration: none;
+    color: black;
+}
+
+.calc-link:hover{
+    text-decoration: underline;
+}
+
+.card{
+    background-color: gray;
+}
+
+.list-group-item{
+    background-color: gray;  
+}
+
+.bg-body-tertiary {
+    background-color: rgb(84 87 91) !important;
+}
+
+.title-card{
+    color: black;
+}
