@@ -6,15 +6,6 @@
     </div>
 
     <div class="row">
-        <div class="col-md-10">
-            <h2 class="me-3">Дела на день:</h2>
-            <ol>
-                <li><b>учит пыха</b></li>
-                <li><b>играт во что-то</b></li>
-                <li><i>спат</i></li>
-            </ol>
-        </div>
-        
         <div class="col-md-2">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
