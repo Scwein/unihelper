@@ -6,6 +6,24 @@
     </div>
 
     <div class="row">
+        <div class="col-md-10">
+           <h2 class="me-3">Дорожная карта:</h2>
+            <ol>
+                <li><b>PHP</b></li>
+                <li><b>HTML</b></li>
+                <li><b>CSS</b></li>
+                <li><b>MySQL</b></li>
+                <li><b>Composer</b></li>
+                <li>
+                    PHP-фреймворки
+                    <ul>
+                        <li>Laravel</li>
+                        <li>Sypfony</li>
+                    </ul>
+                </li>
+                <li>Docker</li>
+            </ol> 
+        </div>
         <div class="col-md-2">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
@@ -26,27 +44,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col-md">
-            <h2 class="me-3">Дорожная карта:</h2>
-            <ol>
-                <li><b>PHP</b></li>
-                <li><b>HTML</b></li>
-                <li><b>CSS</b></li>
-                <li><b>MySQL</b></li>
-                <li><b>Composer</b></li>
-                <li>
-                    PHP-фреймворки
-                    <ul>
-                        <li>Laravel</li>
-                        <li>Sypfony</li>
-                    </ul>
-                </li>
-                <li>Docker</li>
-            </ol>
         </div>
     </div>
 </div>
