@@ -87,30 +87,6 @@ function redirect($url = '')
     die();
 }
 
-function load(array $fieldname = [])
-{
-    $data = [];
-    foreach ($_POST as $k => $v)
-    {
-        if ((in_array($k, $fieldname))) {
-            $data[$k] = trim($v);
-        }
-    }
-    return $data;
-}
-
-function loadGET(array $fieldname = [])
-{
-    $data = [];
-    foreach ($_GET as $k => $v)
-    {
-        if ((in_array($k, $fieldname))) {
-            $data[$k] = trim($v);
-        }
-    }
-    return $data;
-}
-
 function print_num(int $num1, int $num2)
 {
     $qntity1 = strlen("{$num1}");
