@@ -1,5 +1,7 @@
 <?php 
 
+$title = 'Процент';
+
 if (isset($_GET['equally'])) {
     $num = $_GET['num'];
     $percent = $_GET['percent'];

@@ -1,5 +1,7 @@
 <?php 
 
+$title = 'Делитель';
+
 if (isset($_GET['divCalc'])) {
     $num = $_GET['div'];
     $divMas = dividers($num);

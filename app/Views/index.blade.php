@@ -1,28 +1,13 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md">
-            <h1 class="text-center mt-2" style="font-size: 50px;">САМЫЙ ЛУЧШИЙ САЙТ</h1>
+            <h1 class="text-center mt-2" style="font-size: 50px;">Главная страница</h1>
         </div>
     </div>
 
     <div class="row">
         <div class="col-md-10">
-           <h2 class="me-3">Дорожная карта:</h2>
-            <ol>
-                <li><b>PHP</b></li>
-                <li><b>HTML</b></li>
-                <li><b>CSS</b></li>
-                <li><b>MySQL</b></li>
-                <li><b>Composer</b></li>
-                <li>
-                    PHP-фреймворки
-                    <ul>
-                        <li>Laravel</li>
-                        <li>Sypfony</li>
-                    </ul>
-                </li>
-                <li>Docker</li>
-            </ol> 
+
         </div>
         <div class="col-md-2">
             <div class="card" style="width: 18rem;">

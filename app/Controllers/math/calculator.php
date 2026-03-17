@@ -1,5 +1,7 @@
 <?php
 
+$title = 'Калькулятор';
+
 $db = db();
 
 $calculations = $db->query("SELECT * FROM calculations ORDER BY id DESC LIMIT 5")->findAll();

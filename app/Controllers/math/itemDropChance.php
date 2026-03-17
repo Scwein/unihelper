@@ -1,5 +1,7 @@
 <?php 
 
+$title = 'Процент выпадения';
+
 if (isset($_GET['equally'])) {
     $percent = $_GET['num1'];
     $quantity = $_GET['num2'];

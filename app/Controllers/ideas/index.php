@@ -2,6 +2,7 @@
 
 /** @var Db $db */
 /** @var Pagination $pagination */
+$title = 'Идеи';
 
 $db = db();
 

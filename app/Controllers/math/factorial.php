@@ -1,5 +1,7 @@
 <?php
 
+$title = 'Факториал';
+
 if (isset($_GET['equally'])) {
     $num = $_GET['fact'];
     $factorial = factorial($num);

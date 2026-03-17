@@ -1,5 +1,7 @@
 <?php
 
+$title = 'Тригонометрия';
+
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if(isset($_POST['sin'])) {
         $degree = trim($_POST['sin']);
@@ -26,7 +28,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     }
 }
 
-// isset($_POST['sin']) ? $_POST['sin] : isset($_POST['cos']) ? $_POST['cos'] : isset($_POST['tg']) ? $POST['tg'] : isset($_POST['ctg']) ? $_POST['ctg'] : '';
 
 $view = VIEWS . '/calculators/trigonometry.blade.php';
 require_once VIEWS . '/incs/header.blade.php';
