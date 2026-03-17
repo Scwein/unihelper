@@ -12,23 +12,27 @@
         <div class="col-md-2">
             <div class="card" style="width: 18rem;">
                 <div class="card-header">
-                    <div class="d-flex justify-content-center title-card">
+                    <div class="d-flex justify-content-center title-card" id="quote_title">
                         Случайная цитата
                     </div>
                 </div>
 
                 <div class="card-body">
-                    <div class="d-flex justify-content-center title-card">
+                    <div class="d-flex justify-content-center title-card" id="quote">
                         <?= $quote ?>
                     </div>
                 </div>
 
                 <div class="card-footer">
-                    <div class="d-flex justify-content-center title-card">
+                    <div class="d-flex justify-content-center title-card" id="author">
                         <?= "- $author" ?>
                     </div>
                 </div>
             </div>
+            <div class="coppy-btn text-center">
+                <button class="btn" onclick="copyQuote()">Копировать цитату</button>
+            </div>
         </div>
     </div>
 </div>
+<script src="assets/js/copy.js"></script>
