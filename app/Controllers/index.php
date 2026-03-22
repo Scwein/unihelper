@@ -10,5 +10,9 @@ $data = json_decode($request->getBody(), true)['quote'];
 $quote = $data['body'];
 $author = $data['author'];
 
+
+$js = [
+    'assets/js/copy.js',
+];
 $view = VIEWS . '/index.blade.php';
 require_once VIEWS . '/incs/header.blade.php';

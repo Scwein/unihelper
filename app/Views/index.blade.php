@@ -35,4 +35,3 @@
         </div>
     </div>
 </div>
-<script src="assets/js/copy.js"></script>
