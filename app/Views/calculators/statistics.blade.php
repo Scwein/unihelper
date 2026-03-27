@@ -2,8 +2,9 @@
     <div class="row">
         <div class="col-md">
             <form action = '' method="get">
-                <input name='row'>
-                <button name='statistic'>=</button>
+                <label for="row">Введите ряд</label>
+                <input id="row" name='row'>
+                <button class="btn btn-dark" name='statistic'>=</button>
             </form>
         </div>
     </div>

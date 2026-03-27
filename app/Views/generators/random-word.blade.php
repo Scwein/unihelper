@@ -4,7 +4,7 @@
             <form action="" method="get">
                 <label for="word">Генератор случайных слов:</label>
                 <input name="word" id="word">
-                <button name="genWord">Вставить</button>
+                <button class="btn btn-dark" name="genWord">Вставить</button>
             </form>
             <?php if(isset($_GET['genWord'])): ?>
                 <h4>Список слов:</h4>
@@ -16,7 +16,7 @@
                     </ul>
                 <?php endforeach; ?>
                 <form action="">
-                    <button name="genWord2">Выбрать случайное слово</button>
+                    <button class="btn btn-dark" name="genWord2">Выбрать случайное слово</button>
                 </form>
             <?php endif; ?>
             

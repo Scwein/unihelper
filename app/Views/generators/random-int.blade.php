@@ -8,7 +8,7 @@
                 <label for="max">Максимальное число</label>
                 <input name="max" value="<?= old("max", 20) ?>" size="1" id="max">
 
-                <button type="submit" name="genNum">Сгенерировать</button>
+                <button class="btn btn-dark" type="submit" name="genNum">Сгенерировать</button>
             </form>
             <?= $num ?? '' ?>
         </div>

@@ -8,15 +8,14 @@
             }
         ?>
         <br>
-        <button type ="submit" name ="TM">Транспонировать</button>
-        <button type="submit" name ="RM" >Найти обратну матрицу</button>
-        <button type="submit" name ="DET">Найти определитель</button>
-        <button type="submit" name ="^2">Возвести в квадрат</button>
-        <button name="CxM">Умножить на</button>
+        <button class="btn btn-dark" type ="submit" name ="TM">Транспонировать</button>
+        <button class="btn btn-dark" type="submit" name ="RM" >Найти обратну матрицу</button>
+        <button class="btn btn-dark" type="submit" name ="DET">Найти определитель</button>
+        <button class="btn btn-dark" type="submit" name ="^2">Возвести в квадрат</button>
+        <button class="btn btn-dark" name="CxM">Умножить на</button>
         <input name="number" value = "1" size="1">
     </form>
 </div>
-
 <div class="container-fluid py-2">
     <form action="" method="GET">
         <input  name="num1" size="1">
@@ -26,7 +25,7 @@
         <input  name="num3" size="1">
         x
         <input  name="num4" size="1">
-        <button type="submit" name="CreateM">Создать матрицы</button>
+        <button class="btn btn-dark" type="submit" name="CreateM">Создать матрицы</button>
     </form>
 </div>
 
@@ -55,12 +54,12 @@ if(isset($_GET['CreateM'])) {
     }
     echo '<br>';
     if (($_GET['num1'] == $_GET['num3']) and ($_GET['num2'] == $_GET['num4'])) {
-        echo '<button name = "MplusM">Сложить</button>';
-        echo '<button name = "MminusM">Вычесть</button>';
+        echo '<button class="btn btn-dark" name="MplusM">Сложить</button>';
+        echo '<button class="btn btn-dark" name="MminusM">Вычесть</button>';
     }
 
     if ($_GET['num2'] == $_GET['num3']) {
-        echo '<button name = "MxM">Умножить</button>';
+        echo '<button class="btn btn-dark" name="MxM">Умножить</button>';
     }
     echo '</form>';
     echo '</div>';

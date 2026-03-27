@@ -11,7 +11,7 @@
                 <label for="num2">Второе число:</label>
                 <input name="num2" size="1" value="<?= old("num2", 2) ?>" id="num2">
 
-                <button name="start">Начать</button>
+                <button class="btn btn-dark" name="start">Начать</button>
             </form>
 
             <?php if(isset($_GET['start'])): ?>
